@@ -1,0 +1,37 @@
+body {
+    background-image: url('store.jpg');
+    background-size: 1000px;
+    background-position: right; /* Shift the background image to the center */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: blueviolet; 
+}
+
+h1 {
+    color: azure;
+    font-size: 50px;
+}
+
+.filters, .products {
+    color: azure;
+    font-size: 50px;
+    
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    margin: 190px;
+    padding: 10px;
+    background-color: black;
+    display: inline-block;
+    position: left;
+}
+
+.product-card img {
+    max-width: 100%;
+}
+
+.pagination {
+    color: azure;
+    font-size: 50px;
+}

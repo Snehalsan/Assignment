@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Product List</h1>
+    </header>
+    <main>
+        <div class="filters">
+            <label for="category-filter" width="100px">Category:</label>
+            <select id="category-filter" >
+                <option value="All">All</option>
+                <option value="Category A">Category A</option>
+                <option value="Category B">Category B</option>
+            </select>
+        </div>
+        <div class="products" id="products">
+        </div>
+        <div class="pagination" id="pagination">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
